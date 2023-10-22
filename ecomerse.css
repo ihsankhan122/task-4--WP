@@ -1,0 +1,291 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #cc753a;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #ce7e07;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links li {
+    display: inline; /* Display list items horizontally on the same line */
+    margin-right: 15px; /* Adjust the right margin to control spacing */
+}
+
+.nav-links a {
+    font-weight: bold; /* Make the text bold */
+    text-decoration: none; /* Remove underlines from links */
+    color: #000; /* Set the desired text color */
+}
+
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #777;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #dfb912; /* Set your desired button background color */
+    color: #fff; /* Set the button text color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underlines from the link */
+}
+
+.button:hover {
+    background-color: #c9cc23; /* Set a different color for button hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Set a fixed width and height for product images */
+.product-image {
+    width: 200px;
+    height: 200px;
+}
+* Set a fixed height for product containers */
+.product {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    height: 350px; /* Adjust the height as needed */
+}
+
+.product-image-container {
+    height: 200px; /* Fixed height for the image container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the product listings */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.price {
+    color: #f60;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.add-to-cart {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style the contact form */
+.contact {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin: 10px 0;
+}
+
+.form-field label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-field input, .form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+    .product-image {
+        width: 200px; /* Adjust this value to your desired width */
+        height: 200px; /* Adjust this value to your desired height */
+    }
+
+    
+    .product.with-border {
+        border: 2px solid #000; /* You can adjust the border style and color as needed */
+        padding: 10px; /* Optional, adds padding inside the border */
+    }
+
+    
+    .footer {
+        background-color: hsla(0, 6%, 16%, 0.801); /* Change to your desired background color */
+        color:#e42e2e; /* Text color in the footer */
+        padding: 20px; /* Adjust padding as needed */
+        text-align: center;
+        
+    }
+    
+
+    .footer-copyright {
+        text-align: center;
+        background-color: #1d1b1b; /* Set the desired background color */
+        padding: 10px; /* Adjust the padding as needed */
+        color: #FFFFFF; /* Set the desired text color */
+    }
+    
+    
+    .footer-contact {
+color:rgba(255, 255, 255, 0.486);
+
+
+    }
+
+
+  
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    footer {
+        background-color: #8b4a0898; /* Add background color or styles as needed */
+        padding: 20px;
+        /* Add other footer styles here */
+    }
+    .footer-social {
+        text-align: left; /* Align the text to the left */
+    }
+    
+    .centered-list {
+        list-style-type: none; /* Remove default list bullets */
+        padding: 0; /* Remove default padding */
+    }
+    
+    .centered-list a {
+        display: block; /* Make the links block-level elements */
+        text-decoration: none; /* Remove underlines from links */
+        margin-bottom: 10px; /* Add spacing between links */
+    }
+    .small-image {
+        width: 100px; /* Set the desired width */
+        height: 100px; /* Set the desired height */
+    }
+    
